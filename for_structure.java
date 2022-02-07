@@ -12,11 +12,13 @@ public class Teste {
         
 	int soma = 0;
         
-        for (int i = 0; i>N; i++){         
+        for (int i=0; i<N; i++){         
             int x = sc.nextInt();
             soma = soma + x;
         }
 
 		sc.close();
+                System.out.println(soma);
 	}
+   
 }
